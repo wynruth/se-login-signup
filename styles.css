@@ -1,0 +1,80 @@
+body {
+    height:100vh;
+    display:flex;
+    margin:0;
+    padding:0;
+    font-family: Verdana;
+    background-color: #EEF1FF ;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    width: 500px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);    
+    background-color: #D2DAFF;
+    border-radius: 10px;
+    text-align: center;
+}
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #3b3c78;
+}
+.text_field{
+    position: relative;
+    margin: 0 auto 20px auto;
+    width: 80%;
+    text-align: left;
+}
+.text_field label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 1rem;
+}
+.text_field input{
+    padding: 15px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #aeacb7;
+}
+.text_field input:hover{
+    border: 2px solid rgba(0, 0, 0, 0.304)
+}
+input::placeholder {
+    color:#888;
+    font-size: 1rem;
+}
+.signup{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.signup a {
+    text-decoration: none;
+    color: #0000FF;
+}
+.signup a:hover{
+    text-decoration: underline;
+    opacity: 90%;
+}
+.submit {
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #EEF1FF;
+    background-color: #7173c9;
+    cursor: pointer;
+}
+.submit:hover{
+    box-shadow: 0 0 9px rgba(255, 255, 255, 0.662)
+}
